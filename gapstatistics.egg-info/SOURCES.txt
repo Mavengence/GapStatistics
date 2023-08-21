@@ -1,0 +1,10 @@
+LICENSE
+README.md
+gapstatistics.py
+pyproject.toml
+setup.cfg
+gapstatistics.egg-info/PKG-INFO
+gapstatistics.egg-info/SOURCES.txt
+gapstatistics.egg-info/dependency_links.txt
+gapstatistics.egg-info/requires.txt
+gapstatistics.egg-info/top_level.txt
