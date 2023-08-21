@@ -1,8 +1,14 @@
 LICENSE
 README.md
+__init__.py
 gapstatistics.py
 pyproject.toml
+readme.md
 setup.cfg
+__pycache__/__init__.cpython-310.pyc
+__pycache__/gapstatistics.cpython-310.pyc
+dist/gapstatistics-0.1.0-py2.py3-none-any.whl
+dist/gapstatistics-0.1.0.tar.gz
 gapstatistics.egg-info/PKG-INFO
 gapstatistics.egg-info/SOURCES.txt
 gapstatistics.egg-info/dependency_links.txt

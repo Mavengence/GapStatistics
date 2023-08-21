@@ -22,6 +22,8 @@ pip install gapstatistics
 This is the basic use case. If you don't define the parameter <em>algorithm</em> parameter, the default clustering technique is <em>KMeans</em>. The returned object <em>optimum</em> is an **integer** showing the optimal number of clusters for the data.
 
 ```
+from GapStatistics.gapstatistics import GapStatistics
+
 centers = [[0,0], [0,6], [3,2], [5,0]]
 X = make_blobs(n_samples=200, centers=centers, n_features=2, cluster_std=1)
 n_iterations = 30
@@ -38,6 +40,7 @@ print(f'Optimum: {optimum}')
 Here is some code that you can use for showing different plots how the gap statistics derives the optimal number of clusters. For this, you must set the *return_params* to **True**, so that you can plot them. 
 
 ```
+from GapStatistics.gapstatistics import GapStatistics
 from sklearn.datasets import make_blobs
 
 centers = [[0,0], [0,6], [3,2], [5,0]]

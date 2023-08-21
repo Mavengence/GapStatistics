@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from scipy.linalg import svd
 
 
-class GS:
+class GapStatistics:
     def __init__(self, 
                  algorithm: Callable = KMeans,
                  distance_metric: str = 'euclidean',
