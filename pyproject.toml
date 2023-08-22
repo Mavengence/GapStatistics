@@ -1,17 +1,24 @@
 [tool.poetry]
 name = "gapstatistics"
-version = "0.1.1"
+version = "0.1.0"
 description = "A library for calculating the gap statistics for clustering algorithms"
 authors = ["Tim Loehr <timloehr@icloud.com>"]
 license = "MIT"
 
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gapstatistics"
+authors = [
+    {name = "Tim Loehr", email = "timloehr@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">=3.7"
 dependencies = [
     "numpy",
     "scikit-learn",
     "matplotlib",
     "scipy"
 ]
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
