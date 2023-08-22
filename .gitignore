@@ -2,4 +2,7 @@
 
 dist/
 *.tar.gz
-
+.vscode/
+__pycache__/
+build/
+lib/
