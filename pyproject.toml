@@ -8,13 +8,6 @@ license = "MIT"
 [build-system]
 requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
-
-[project]
-name = "gapstatistics"
-authors = [
-    {name = "Tim Loehr", email = "timloehr@icloud.com"}
-]
-readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
     "numpy",
